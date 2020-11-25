@@ -1,0 +1,47 @@
+.board{
+    background-color: lightgray;
+    width:40%;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 1000px) {
+    .board{
+      width: 80%;
+      margin: 0 auto;
+      margin-top:300px
+    }
+   
+  }
+
+table{
+  width:100%
+}
+
+.cell{
+  align-items: center !important;
+  width:33.3%;
+  border: 1px solid black 
+}
+
+.cell:after {
+  content: "";
+  display: block;
+  margin-top: 100%;
+}
+
+
+.cellx{
+  background: url("../images/cellx.png");
+  background-size: 95%;
+  background-repeat: no-repeat;
+}
+
+
+.cello{
+  background: url("../images/cello.png");
+  background-size: 95%;
+  background-repeat: no-repeat;
+}

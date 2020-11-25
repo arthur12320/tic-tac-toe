@@ -1,0 +1,25 @@
+.sidedock {
+    background-color: lightgray;
+    width:20%;
+    height:80%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+    .sidedock{
+      order:1;
+      width: 80%;
+      margin:0 auto;
+      margin-top: 40px;
+    }
+   
+  }
+
+  .playerName{
+    margin-top: 40px !important;
+  }
+
+  .sidebuttons{
+    width:80%;
+    margin-top:10px !important;
+  }
